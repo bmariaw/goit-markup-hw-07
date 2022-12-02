@@ -1,0 +1,33 @@
+.hero {
+  text-align: center;
+  padding: 200px 0;
+
+  background-color: $background-color-second;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/header-photo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  color: $primary-title-color;
+}
